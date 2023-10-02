@@ -1,0 +1,14 @@
+diff --git a/node_modules/@remix-run/v1-route-convention/package.json b/node_modules/@remix-run/v1-route-convention/package.json
+index 4c00de9..c5f618e 100644
+--- a/node_modules/@remix-run/v1-route-convention/package.json
++++ b/node_modules/@remix-run/v1-route-convention/package.json
+@@ -14,8 +14,7 @@
+     "./package.json": "./package.json",
+     ".": {
+       "types": "./dist/index.d.ts",
+-      "import": "./dist/index.mjs",
+-      "require": "./dist/index.js"
++      "default": "./dist/index.js"
+     }
+   },
+   "dependencies": {
